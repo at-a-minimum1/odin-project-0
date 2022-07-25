@@ -1,3 +1,4 @@
+<!-- @collapse -->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -9,38 +10,65 @@
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<!-- I'm hoping to add the empty components here and then also add the information here in those panels -->
-
 	<body>
 		<!-- Header component goes here -->
 		<nav class="navbar">
-			<div class="navbar__container">Header is here.</div>
+			<nav class="navbar__container">
+				<h1>Header Logo</h1>
+			</nav>
+			<nav class="navbar__container">Link one</nav>
 		</nav>
+
 		<!-- Body P1 component goes here -->
 		<div class="body_panel">
-			<div class="body_content">Body content goes here</div>
-			<div class="body_content">Body content goes here</div>
-			<div class="body_content">Body content goes here</div>
+			<div class="body_panel">
+				<div class="body_content">
+					<h1>This website is awesome</h1>
+
+					This website has some subtext that goes here under the main title.
+					It's a smaller font and the color is lower contrast.
+					<br />
+					<button>Sign up</button>
+				</div>
+			</div>
+			<div class="image_content">
+				<img src="media/white_box.png" />
+			</div>
 		</div>
+
 		<!-- Body P2 component goes here -->
-		<div class="body_panel">
-			<div class="image_header">Header here</div>
-			<figure class="image_content">
-				<img src="media/white_box.png" />
-				<figcaption>Description here</figcaption>
-			</figure>
-			<figure class="image_content">
-				<img src="media/white_box.png" />
-				<figcaption>Description here</figcaption>
-			</figure>
-			<figure class="image_content">
-				<img src="media/white_box.png" />
-				<figcaption>Description here</figcaption>
-			</figure>
-			<figure class="image_content">
-				<img src="media/white_box.png" />
-				<figcaption>Description here</figcaption>
-			</figure>
+		<div class="image_header">
+			<h1>Some random information.</h1>
 		</div>
+		<div class="body_panel">
+			<div class="body_panel">
+				<figure class="image_content">
+					<img src="media/white_box.png" />
+					<figcaption>
+						This is some subtext under and illustration or image
+					</figcaption>
+				</figure>
+				<figure class="image_content">
+					<img src="media/white_box.png" />
+					<figcaption>
+						This is some subtext under and illustration or image
+					</figcaption>
+				</figure>
+				<figure class="image_content">
+					<img src="media/white_box.png" />
+					<figcaption>
+						This is some subtext under and illustration or image
+					</figcaption>
+				</figure>
+				<figure class="image_content">
+					<img src="media/white_box.png" />
+					<figcaption>
+						This is some subtext under and illustration or image
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+
 		<!-- Body P3 component goes here -->
 		<div class="body_panel">
 			<div class="body_content">
@@ -49,14 +77,24 @@
 				All I know is it looks nice.
 			</div>
 		</div>
+
 		<!-- Body P4 component goes here -->
 		<div class="body_panel">
-			<div class="body_content">Body content goes here</div>
-			<div class="body_content">Body content goes here</div>
+			<div>
+				<div class="body_content"><h2>Call to action! It's time!</h2></div>
+				<div class="body_content">
+					Sign up for our product by clicking that button over there!
+				</div>
+				<br />
+				<button>Sign up</button>
+			</div>
 		</div>
+
 		<!-- Footer component goes here -->
 		<nav class="navbar">
-			<div class="navbar__container">Footer is here.</div>
+			<div class="navbar__container">
+				Copyright -c symbol- The Odin Project 2021
+			</div>
 		</nav>
 	</body>
 </html>
