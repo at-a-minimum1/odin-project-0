@@ -10,7 +10,7 @@
 	border-color: red;
 	margin: auto;
 	padding: 20px;
-	justify-content: centers;
+	justify-content: center;
 	/* text-align: center; */
 }
 .body_panel {
@@ -24,9 +24,12 @@
 	flex-grow: 1;
 }
 .body_content {
+	display: flex;
 	border-style: solid;
 	border-color: yellowgreen;
 	padding: 20px;
+	flex-flow: columns wrap;
+	flex-grow: 1;
 	/* margin-top: 10pt;
 	margin-bottom: 10pt;
 	margin-left: 70pt;
@@ -65,12 +68,41 @@
 	/* text-align: center; */
 }
 .navbar__container {
-	/* display: flex; */
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-grow: 1;
 	border-style: solid;
 	border-color: skyblue;
+	gap: 50px;
 }
 img {
 	display: flex;
 	flex-grow: 1;
+}
+.sign_up {
+	/* color: chartreuse;s */
+	flex-flow: column wrap;
+}
+.sign_up button {
+	color: aqua;
+	padding: 20px;
+	max-width: fit-content;
+	font-size: large;
+	border-radius: 12px;
+	background-color: blues;
+	padding-left: 10px;
+}
+.background_white {
+	background-color: white;
+}
+.background_white h1{
+	color:black;
+	background-color: white;
+
+}
+.background_off_white {
+	background-color: rgb(107, 107, 107);
+	color: black;
+	font-size: 40px;
 }
