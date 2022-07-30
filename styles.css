@@ -1,4 +1,4 @@
-/* @collapssdfdsfe */
+/* @collapse */
 * {
 	font-family: monospace;
 	background-color: #1f2937;
@@ -30,7 +30,13 @@
 	text-align: center;
 	font-size: 18px;
 	gap: 1px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
+.header_links a {
+	color: #e5e7eb;
+}
+
 .awesome_section {
 	border: dotted;
 	border-color: blue;
@@ -81,26 +87,70 @@
 	border-color: blue;
 	display: flex;
 	justify-content: center;
-	
-	background-color: #e5e7eb;
+	align-items: center;
+	flex-flow: column wrap;
+	background-color: white;
+	padding: 5%;
 }
 .random > * {
-	background-color: #e5e7eb;
+	background-color: white;
 }
-
+.random_header {
+	font-size: 30px;
+	font-weight: bolder;
+	border: solid;
+	border-color: yellow;
+}
 figcaption {
-	background-color: #e5e7eb;
+	background-color: white;
 	text-align: center;
+	font-size: 18px;
 }
 .random_pics > * {
-	display: flex;
-	flex-flow: row wrap;
-	/* border: solid; */
-	/* border-color: yellow; */
-	background-color: #e5e7eb;
+	background-color: white;
 	width: min-content;
 }
 .random_pics {
+	display: flex;
+	flex-flow: row wrap;
 	border: solid;
 	border-color: yellow;
+}
+.random_pics img {
+	padding: 0px;
+	margin: 0px;
+
+	border: solid;
+	border-color: #3882f6;
+	border-radius: 20px;
+}
+.quote_section {
+	display: flex;
+	flex-flow: column wrap;
+}
+.quote_section > * {
+	background-color: #e5e7eb;
+}
+.quote {
+	border: solid;
+	border-color: yellow;
+	color: #1f2937;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: lighter;
+	padding-top: 5%;
+
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.author {
+	border: solid;
+	border-color: yellow;
+	color: #1f2937;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: right;
+	padding-left: 15%;
+	padding-right: 17%;
+	padding-bottom: 5%;
 }
