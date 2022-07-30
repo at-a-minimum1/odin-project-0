@@ -1,109 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="import" href="UI/body-panel.html" />
+		<link rel="stylesheet" href="styles.css" />
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Odin Project 1</title>
-		<link rel="stylesheet" href="styles.css" />
+		<title>Odin Project 0</title>
 	</head>
-	<!-- I'm hoping to add the empty components here and then also add the information here in those panels -->
 	<body>
-		<!-- Header component goes here -->
-		<nav class="navbar">
-			<nav class="navbar__container">
-				<h1>Header Logo</h1>
-			</nav>
-			<nav class="navbar__container">
-				<a href="www.google.com">Link one</a>
-				<a href="www.google.com">Link two</a>
-				<a href="www.google.com">Link three</a>
-			</nav>
-		</nav>
-
-		<!-- Body P1 component goes here -->
-		<div class="body_panel">
-			<div class="body_panel">
-				<div class="body_content sign_up">
-					<h1>This website is awesome</h1>
-					<p>
-						This website has some subtext that goes here under the main title.
-						It's a smaller font and the color is lower contrast.
-					</p>
-
-					<br />
-					<button>Sign up</button>
-				</div>
+		<header class="header_container">
+			<div class="header_logo">Header Logo</div>
+			<div class="header_links">
+				<a>header link one</a>
+				<a>header link two</a>
+				<a>header link three</a>
 			</div>
-			<div class="image_content">
-				<img src="media/white_box.png" />
+		</header>
+		<div class="awesome_section">
+			<div class="awe_section_signup">
+				<h1>This website is awesome</h1>
+				<p>
+					This website has some subtext that goes here under the main title.
+					It's a smaller font and the color is lower contrast.
+				</p>
+				<button>Sign up</button>
+			</div>
+
+			<div class="awe_section_img">
+				<div class="placeholder">this is a placeholder for an image</div>
 			</div>
 		</div>
-
-		<!-- Body P2 component goes here -->
-		<div class="image_header background_white">
+		<div class="random">
 			<h1>Some random information.</h1>
-		</div>
-		<div class="body_panel">
-			<div class="body_panel background_white">
-				<figure class="image_content">
-					<img src="media/white_box.png" />
+			<div class="random_pics">
+				<figure>
+					<img src="./media/white_box.png" />
 					<figcaption>
-						This is some subtext under and illustration or image
+						This is some subtext under an illustration or image
 					</figcaption>
 				</figure>
-				<figure class="image_content">
-					<img src="media/white_box.png" />
+				<figure>
+					<img src="./media/white_box.png" />
 					<figcaption>
-						This is some subtext under and illustration or image
+						This is some subtext under an illustration or image
 					</figcaption>
 				</figure>
-				<figure class="image_content">
-					<img src="media/white_box.png" />
+				<figure>
+					<img src="./media/white_box.png" />
 					<figcaption>
-						This is some subtext under and illustration or image
+						This is some subtext under an illustration or image
 					</figcaption>
 				</figure>
-				<figure class="image_content">
-					<img src="media/white_box.png" />
+				<figure>
+					<img src="./media/white_box.png" />
 					<figcaption>
-						This is some subtext under and illustration or image
+						This is some subtext under an illustration or image
 					</figcaption>
 				</figure>
 			</div>
 		</div>
-
-		<!-- Body P3 component goes here -->
-		<div class="body_panel background_off_white">
-			<div class="body_content background_off_white">
-				This is an inspiring quote, or a testimonial from a customer. Maybe it's
-				just filling up space or maybe people will actually read it? Who knows?
-				All I know is it looks nice.
-				<br />
-				-Mr. Jolly the Clown
-			</div>
-		</div>
-
-		<!-- Body P4 component goes here -->
-		<div class="body_panel background_white">
-			<div>
-				<div class="body_content"></div>
-				<div class="body_content"><h2>Call to action! It's time!</h2></div>
-				<div class="body_content">
-					Sign up for our product by clicking that button over there!
-				</div>
-				<div class="body_content sign_up">
-					<button>Sign up</button>
-				</div>
-			</div>
-		</div>
-
-		<!-- Footer component goes here -->
-		<nav class="navbar">
-			<div class="navbar__container">
-				Copyright -c symbol- The Odin Project 2021
-			</div>
-		</nav>
 	</body>
 </html>
