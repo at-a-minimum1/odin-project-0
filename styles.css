@@ -5,9 +5,9 @@
 }
 .navbar {
 	display: flex;
-	border-style: solid;
-	border-width: 2px;
-	border-color: red;
+	/* border-style: solid; */
+	/* border-width: 2px; */
+	/* border-color: red; */
 	margin: auto;
 	padding: 20px;
 	justify-content: center;
@@ -16,8 +16,8 @@
 .body_panel {
 	display: flex;
 	justify-content: center;
-	border-style: solid;
-	border-color: red;
+	/* border-style: solid; */
+	/* border-color: red; */
 	height: 500px;
 	padding: 2px;
 	align-items: center;
@@ -25,8 +25,8 @@
 }
 .body_content {
 	display: flex;
-	border-style: solid;
-	border-color: yellowgreen;
+	/* border-style: solid; */
+	/* border-color: yellowgreen; */
 	padding: 20px;
 	flex-flow: columns wrap;
 	flex-grow: 1;
@@ -36,29 +36,37 @@
 	margin-right: 70pt;
 		*/
 }
+
 .image_content {
 	display: flex;
-	border-style: solid;
-	border-color: greenyellow;
+	/* border-style: solid; */
+	/* border-color: greenyellow; */
 	flex-wrap: wrap;
 	/* width: 225px; */
 	/* height: fit-content; */
 	text-align: center;
-	padding: 0;
-	margin: 0;
-	max-height: 100%;
-	max-width: 100%;
+	padding: 1;
+	margin: 1px;
+	/* max-height: 100%; */
+	/* max-width: 100%; */
 	align-items: center;
 	flex-basis: 0;
+	/* max-width: 200px; */
+	/* flex-shrink: 1; */
+	/* flex-basis: 2px; */
 }
+
 .image_content figcaption {
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serifs;
+	background-color: white;
+	color: black;
+	font-size: 30px;
 }
 .image_header {
 	display: flex;
 	justify-content: center;
-	border-style: solid;
-	border-color: greenyellow;
+	/* border-style: solid; */
+	/* border-color: greenyellow; */
 	font-size: large;
 	flex-shrink: 1;
 	/* height: fit-content; */
@@ -72,10 +80,12 @@
 	justify-content: center;
 	align-content: center;
 	flex-grow: 1;
-	border-style: solid;
-	border-color: skyblue;
+	/* border-style: solid; */
+	/* border-color: skyblue; */
 	gap: 50px;
+	font-size: large;
 }
+
 img {
 	display: flex;
 	flex-grow: 1;
@@ -85,24 +95,24 @@ img {
 	flex-flow: column wrap;
 }
 .sign_up button {
-	color: aqua;
+	color: white;
 	padding: 20px;
-	max-width: fit-content;
-	font-size: large;
+	max-width: 240px;
+	font-size: 30px;
 	border-radius: 12px;
-	background-color: blues;
+	background-color: blue;
 	padding-left: 10px;
 }
 .background_white {
 	background-color: white;
 }
-.background_white h1{
-	color:black;
+.background_white h1 {
+	color: black;
 	background-color: white;
-
 }
 .background_off_white {
 	background-color: rgb(107, 107, 107);
 	color: black;
 	font-size: 40px;
+	padding: 30px;
 }
